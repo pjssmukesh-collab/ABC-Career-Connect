@@ -1,0 +1,382 @@
+.errorContainer {
+  padding: 24px;
+  color: #C62828;
+}
+
+.container {
+  padding: 24px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.subtitle {
+  margin: 4px 0 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.controlsContainer {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.addButton {
+  height: 37px;
+  padding: 0 16px;
+  background-color: #C62828;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.cardHeader {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #f3f4f6;
+  color: #9ca3af;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.cardInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.companyName {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 4px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.industry {
+  font-size: 13px;
+  color: #6b7280;
+  margin: 2px 0;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 6px;
+}
+
+.cardDivider {
+  border-top: 1px solid #f3f4f6;
+  margin-top: 14px;
+  padding-top: 12px;
+}
+
+.recruiterInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.recruiterEmail {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 4px;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.badge {
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.badgeActive {
+  background-color: #ecfdf5;
+  color: #047857;
+}
+
+.badgeInactive {
+  background-color: #fef2f2;
+  color: #C62828;
+}
+
+.websiteLink {
+  font-size: 12px;
+  color: #C62828;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: #C62828;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.detailsGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+}
+
+.sidebarHeader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logoImage {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  object-fit: contain;
+  border: 1px solid #e5e7eb;
+}
+
+.logoPlaceholder {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: #f3f4f6;
+  color: #9ca3af;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.sidebarTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 16px 0 4px 0;
+  color: #111827;
+}
+
+.badgeLg {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sidebarSection {
+  border-top: 1px solid #f3f4f6;
+  padding-top: 16px;
+}
+
+.sidebarSectionTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 12px;
+}
+
+.sidebarDetailsList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.websiteLinkInline {
+  color: #C62828;
+}
+
+.deleteContainer {
+  margin-top: 24px;
+}
+
+.deleteButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #fef2f2;
+  color: #C62828;
+  border: 1px solid #fee2e2;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.mainDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.criteriaGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.criteriaLabel {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.criteriaValue {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+  margin-top: 4px;
+}
+
+.jobDescription {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.6;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.formGroup {
+}
+
+.formLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.formInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+.formInputSm {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.formRow3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.formSection {
+  border-top: 1px solid #e5e7eb;
+  margin: 10px 0;
+  padding-top: 10px;
+}
+
+.formSectionTitle {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.cancelBtn {
+  padding: 8px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.submitBtn {
+  padding: 8px 16px;
+  background-color: #C62828;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}

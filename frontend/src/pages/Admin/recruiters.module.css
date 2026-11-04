@@ -1,0 +1,153 @@
+.errorContainer {
+  padding: 24px;
+  color: #C62828;
+}
+
+.container {
+  padding: 24px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.subtitle {
+  margin: 4px 0 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.controlsContainer {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.addButton {
+  height: 37px;
+  padding: 0 16px;
+  background-color: #C62828;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.tableCell {
+  padding: 14px 18px;
+  color: #4b5563;
+}
+
+.tableCellBold {
+  padding: 14px 18px;
+  color: #111827;
+  font-weight: 600;
+}
+
+.nameContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badgeActive {
+  background-color: #ecfdf5;
+  color: #047857;
+}
+
+.badgeInactive {
+  background-color: #fef2f2;
+  color: #C62828;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  color: #C62828;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.formGroup {
+}
+
+.formLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.formInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.cancelBtn {
+  padding: 8px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.submitBtn {
+  padding: 8px 16px;
+  background-color: #C62828;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}

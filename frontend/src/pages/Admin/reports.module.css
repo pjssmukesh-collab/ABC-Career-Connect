@@ -1,0 +1,93 @@
+.errorContainer {
+  padding: 24px;
+  color: #C62828;
+}
+
+.container {
+  padding: 24px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.headerContainer {
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.titleEmpty {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 24px;
+}
+
+.subtitle {
+  margin: 4px 0 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.highlightsCard {
+  margin-bottom: 24px;
+  border-left: 4px solid #C62828;
+}
+
+.highlightsTitle {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7280;
+  text-transform: uppercase;
+}
+
+.highlightsStats {
+  display: flex;
+  gap: 32px;
+  margin-top: 12px;
+  align-items: center;
+}
+
+.highlightsPercentage {
+  font-size: 36px;
+  font-weight: 700;
+  color: #C62828;
+}
+
+.highlightsDetails {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.tableCellBold {
+  padding: 12px 18px;
+  color: #111827;
+  font-weight: 600;
+}
+
+.tableCell {
+  padding: 12px 18px;
+  color: #4b5563;
+}
+
+.tableCellGreen {
+  padding: 12px 18px;
+  color: #047857;
+  font-weight: 600;
+}
+
+.tableCellBlue {
+  padding: 12px 18px;
+  color: #1d4ed8;
+  font-weight: 600;
+}

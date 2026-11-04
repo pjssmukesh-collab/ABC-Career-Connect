@@ -1,0 +1,4 @@
+- [x] Create frontend CSS file `Upload_student.css`
+- [x] Create frontend JS/JSX file `Upload_student.jsx` with dragging, button styling, states, and file handling
+- [x] Integrate the component into `pages/Admin/student.jsx` to verify it displays correctly
+- [x] Verify the button layout, states, and transitions
